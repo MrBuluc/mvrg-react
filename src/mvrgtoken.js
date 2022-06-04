@@ -58,7 +58,7 @@ const abi = [
     stateMutability: "view",
     payable: false,
     inputs: [{ type: "address", name: "account" }],
-    outputs: [{ type: "uint256" }],
+    outputs: [{ internaltype: "uint256", type: "uint256", name: "balanceOf" }],
   },
   {
     type: "function",
@@ -116,7 +116,9 @@ const abi = [
     stateMutability: "view",
     payable: false,
     inputs: [],
-    outputs: [{ internaltype: "uint256", type: "uint256", name: "totalSupply" }],
+    outputs: [
+      { internaltype: "uint256", type: "uint256", name: "totalSupply" },
+    ],
   },
   {
     type: "function",
