@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import mvrgtoken from "./mvrgtoken";
 import web3 from "./web3";
+import styles from "./Wallet.module.css";
 
 class App extends Component {
   state = {
@@ -48,58 +49,54 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="App">
         <h2>Metaverse Research Group Activearn Token</h2>
-        <p>
-          Token Name: {this.state.name}
-          <br />
-          Token Symbol: {this.state.symbol}
-          <br />
-          Total Supply: {this.state.totalSupply}
-        </p>
+        <div className={styles.walletCard}>
+          <h3>Token Name: {this.state.name}</h3>
+          <h3>Token Symbol: {this.state.symbol}</h3>
+          <h3>Total Supply: {this.state.totalSupply}</h3>
+        </div>
         <hr />
         <p>
-          <button onClick={this.connectWallet}>
+          <button className={styles.button6} onClick={this.connectWallet}>
             {this.state.connectWalletText}
           </button>
-          <div>
+          <div className={styles.walletCard}>
             <h3>Address: {this.state.address}</h3>
             <h3>Balance: {this.state.addressBalance}</h3>
           </div>
         </p>
         <hr />
-        <p>
-          Event Name: Med-a-verse
-          <br />
-          Event Date: 11-05-2022
-          <br />
-          Event Location: MSKU Medical Faculty
-          <br />
-          Event Description: In this presentation, we first introduce our
-          <br />
-          research group and touch on digital twin, virtual reality (vr-ar-xr)
-          <br />
-          and medicine studies; We also make statements about the future with
-          <br />
-          the topics of metaverse, blockchain and token economy.
-          <br />
-        </p>
-        <hr />
-        <h4>Join the event</h4>
-        <div>
-          <label>Participant Address: </label>
-          <input
-            value={this.state.receiverAddress}
-            onChange={(event) =>
-              this.setState({ receiverAddress: event.target.value })
-            }
-          />
+        <div className={styles.walletCard}>
+          <h3>Event Name: Med-a-verse</h3>
+          <h3>Event Date: 11-05-2022</h3>{" "}
+          <h3>Event Location: MSKU Medical Faculty Event </h3>
+          <h3>
+            Description: In this presentation, we first introduce our research
+            group and touch on digital twin, virtual reality (vr-ar-xr) and
+            medicine studies; We also make statements about the future with the
+            topics of metaverse, blockchain and token economy.
+          </h3>
         </div>
-        <br />
-        <button className="button" onClick={this.joinEvent}>
-          Send the MvRG Token
-        </button>
         <hr />
+        <div className={styles.interactionsCard}>
+          <h2>Join the event</h2>
+          <div>
+            <h3>Participant Address: </h3>
+            <input
+              className={styles.addressInput}
+              value={this.state.receiverAddress}
+              onChange={(event) =>
+                this.setState({ receiverAddress: event.target.value })
+              }
+            />
+          </div>
+          <br />
+          <button className={styles.button6} onClick={this.joinEvent}>
+            Send the MvRG Token
+          </button>
+          <hr />
+        </div>
         <h1>{this.state.message}</h1>
       </div>
     );
