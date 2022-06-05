@@ -108,12 +108,10 @@ of the attendees.
      <br>  
      LinkedIn: <a href="https://www.linkedin.com/in/hakkican-buluc/"> LinkedIn Hesabım</a>
      <b><h2 style="color: #fc6203">HELİN AYLİN&nbsp; KABAK</h2></b>
-     <br>  
-     <br>  
+     <br>    
      LinkedIn: <a href="https://www.linkedin.com/in/helinkabak/"> LinkedIn Hesabım</a>
      <b><h2 style="color: #fc6203">HÜSEYİN&nbsp; ÇOBAN</h2></b>
-     <br>  
-     <br>  
+     <br> 
      LinkedIn: <a href="https://www.linkedin.com/in/huseyin-coban/"> LinkedIn Hesabım</a>
     </samp>
 </details>
