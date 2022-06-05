@@ -90,7 +90,7 @@ of the attendees.
 
 ## 📽 Introduction Video
 
-[![Watch the video](https://img.youtube.com/vi/kO2Jy0PAsk/0.jpg)](https://cutt.ly/BJT5a2H)
+[![Watch the video](https://img.youtube.com/vi/_kO2Jy0PAsk/0.jpg)](https://cutt.ly/BJT5a2H)
 
 ## 📱 Touch
 
