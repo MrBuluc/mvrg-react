@@ -64,7 +64,7 @@ of the attendees.
 ## 📷 Design Screenshot
 
 <img src="readme_images/website.png" alt="Website" width="1000" height="550"/>
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="readme_images/website1.png" alt="website 2" width="1000" height="550"/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="readme_images/website2.png" alt="website 2" width="1000" height="550"/>
 
 ## 🛠 Technologies Used
 
