@@ -50,7 +50,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h2>Metaverse Research Group Activearn Token</h2>
+        <h2>Metaverse Research Group MvRG Token</h2>
         <div className={styles.walletCard}>
           <h3>Token Name: {this.state.name}</h3>
           <h3>Token Symbol: {this.state.symbol}</h3>
@@ -70,12 +70,12 @@ class App extends Component {
         <div className={styles.walletCard}>
           <h3>Event Name: Med-a-verse</h3>
           <h3>Event Date: 11-05-2022</h3>{" "}
-          <h3>Event Location: MSKU Medical Faculty Event </h3>
+          <h3>Event Location: MSKU Medical Faculty</h3>
           <h3>
-            Description: In this presentation, we first introduce our research
-            group and touch on digital twin, virtual reality (vr-ar-xr) and
-            medicine studies; We also make statements about the future with the
-            topics of metaverse, blockchain and token economy.
+            Event Description: In this presentation, we first introduce our
+            research group and touch on digital twin, virtual reality (vr-ar-xr)
+            and medicine studies; We also make statements about the future with
+            the topics of metaverse, blockchain and token economy.
           </h3>
         </div>
         <hr />
