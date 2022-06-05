@@ -30,8 +30,8 @@ of members in activities and to encourage them to be more active. While doing th
 <table>
     <tr>
         <td align="center"><a href="https://github.com/MrBuluc"><img src="https://avatars.githubusercontent.com/u/43816007?s=400&u=d645bffeec22057c3b52ef818900fd7bdcc19eb0&v=4" width="100px;" alt=""/><br/><sub><b>Hakkıcan Bülüç</b></sub></a><br/><br/><sub><b>Smart Contract Developer</b></sub></a><br/></a></td>
-        <td align="center"><a href="https://github.com/MrBuluc"><img src="https://avatars.githubusercontent.com/u/43816007?s=400&u=d645bffeec22057c3b52ef818900fd7bdcc19eb0&v=4" width="100px;" alt=""/><br/><sub><b>Helin Aylin Kabak</b></sub></a><br/><br/><sub><b>React Developer</b></sub></a><br/></a></td>
-        <td align="center"><a href="https://github.com/MrBuluc"><img src="https://avatars.githubusercontent.com/u/43816007?s=400&u=d645bffeec22057c3b52ef818900fd7bdcc19eb0&v=4" width="100px;" alt=""/><br/><sub><b>Hüseyin Çoban</b></sub></a><br/><br/><sub><b>React Developer</b></sub></a><br/></a></td>
+        <td align="center"><a href="https://github.com/helinkabak"><img src="https://avatars.githubusercontent.com/u/80323601?v=4" width="100px;" alt=""/><br/><sub><b>Helin Aylin Kabak</b></sub></a><br/><br/><sub><b>React Developer</b></sub></a><br/></a></td>
+        <td align="center"><a href="https://github.com/huseyinnc"><img src="https://avatars.githubusercontent.com/u/57643667?s=400&u=998147cd53daa17cf365c7490cbf974ed3ec67b6&v=4" width="100px;" alt=""/><br/><sub><b>Hüseyin Çoban</b></sub></a><br/><br/><sub><b>React Developer</b></sub></a><br/></a></td>
     </tr>
 </table>
 
@@ -40,6 +40,13 @@ of members in activities and to encourage them to be more active. While doing th
 <div align="center">
     <img src="readme_images/MvRg_Token Sadeleştirilmiş En 1.png" alt="System Model" width="700">
 </div>
+
+First of all, in order for our system to work properly, our users must have accounts in a
+virtual wallet, for example MetaMask. Afterwards, our users will go to our free events and earn
+MvRG Tokens and these tokens will be kept in their virtual wallets. If our users want to go to vip
+events, MvRG Token will be read from their virtual wallets and then they will be able to enter
+that event after spending the desired amount of tokens. And all these operations will be done
+with a smartphone and qr.
 
 ## 🧑‍💻 Implementation
 
@@ -56,8 +63,8 @@ of the attendees.
 
 ## 📷 Design Screenshot
 
-<img src="readme_images/website.png" alt="Website" width="1000" height="550">
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="readme_images/website1.png" alt="website 2" width="1000" height="550">
+<img src="readme_images/website.png" alt="Website" width="1000" height="550"/>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="readme_images/website1.png" alt="website 2" width="1000" height="550"/>
 
 ## 🛠 Technologies Used
 
