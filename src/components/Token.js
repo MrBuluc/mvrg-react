@@ -54,9 +54,9 @@ class Token extends Component {
                 <h2>Metaverse Research Group MvRG Token</h2>
                 <h2 className={styles.tokenName}>Activern</h2>
                 <div className={styles.walletCard}>
-                    <h3>Token Name: {this.state.name}</h3>
-                    <h3>Token Symbol: {this.state.symbol}</h3>
-                    <h3>Total Supply: {this.state.totalSupply}</h3>
+                    <h3>Token Name: {this.state.name} Activern</h3>
+                    <h3>Token Symbol: {this.state.symbol} MvRG</h3>
+                    <h3>Total Supply: {this.state.totalSupply} 1000000000000000000000000000000000000000</h3>
                 </div>
 
                 <div className={styles.btnWrapper} >
@@ -99,7 +99,7 @@ class Token extends Component {
                                 this.setState({ receiverAddress: event.target.value })
                             }
                         
-                        placeholder="Enter your email"
+                            placeholder="Enter your virtual wallet address"
                         />
         
                         
