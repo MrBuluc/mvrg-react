@@ -8,14 +8,14 @@ This project is based on handling the problem of low attendance at events using 
     <summary>Table of Contents</summary>
     <ol>
         <li><a href="#activearn">Activearn</a></li>
-        <li><a href="#project-description">Project Description</a></li>
-        <li><a href="#team-members">Team Members</a></li>
-        <li><a href="#system-model">System Model</a></li>
-        <li><a href="#implementation">Implementation</a></li>
-        <li><a href="#design-screenshot">Design Screenshot</a></li>
-        <li><a href="#technologies-used">Technologies Used</a></li>
-        <li><a href="#introduction-video">Introduction Video</a></li>
-        <li><a href="#touch">Touch</a></li>
+        <li><a href="#-project-description">Project Description</a></li>
+        <li><a href="#-team-members">Team Members</a></li>
+        <li><a href="#-system-model">System Model</a></li>
+        <li><a href="#-implementation">Implementation</a></li>
+        <li><a href="#-design-screenshot">Design Screenshot</a></li>
+        <li><a href="#-technologies-used">Technologies Used</a></li>
+        <li><a href="#-introduction-video">Introduction Video</a></li>
+        <li><a href="#-touch">Touch</a></li>
     </ol>
 </details>
 
